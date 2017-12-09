@@ -1,0 +1,7 @@
+CREATE TABLE Empleados (
+id INT(6) AUTO_INCREMENT PRIMARY KEY,
+nombre VARCHAR(30) NOT NULL,
+apellidos VARCHAR(80) NOT NULL,
+email VARCHAR(50),
+telefono VARCHAR(20)
+)
